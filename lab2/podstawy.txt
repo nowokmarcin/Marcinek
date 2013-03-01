@@ -1,0 +1,36 @@
+a) System kontroli wersji (ang. version/revision control system) jest to oprogramowanie s³u¿¹ce do œledzenia 
+zmian g³ównie w kodzie Ÿród³owym oraz pomocy programistom w ³¹czeniu zmian dokonanych przez wiele osób w 
+ró¿nych momentach.
+  b) Workflow (ang. work flow – przep³yw pracy) – w sensie szerszym, pojêcie okreœlaj¹ce sposób przep³ywu 
+  informacji pomiêdzy rozmaitymi obiektami bior¹cymi udzia³ w jej przetwarzaniu. W wê¿szym sensie jest to 
+  okreœlenie sposobu przep³ywu dokumentów pomiêdzy pracownikami wykonuj¹cymi pewien zalgorytmizowany zespó³ 
+  czynnoœci. Pojêcie workflow jest u¿ywane w odniesieniu do oprogramowania, zw³aszcza s³u¿¹cego wspomagania 
+  pracy grupowej. Oprogramowanie takie pozwala na okreœlenie jakie role w przetwarzaniu dokumentów pe³ni¹ osoby 
+  uczestnicz¹ce w wykonywaniu danej czynnoœci oraz jakie s¹ stany poœrednie dokumentów.
+  c) Systemy kontroli wersji dziel¹ siê na:
+      *scentralizowane, oparte na architekturze klient-serwer (np. CVS, Subversion)
+      *rozproszone, oparte na architekturze P2P (np. BitKeeper, Code Co-op, svk, Git).
+      W tych pierwszych istnieje jedno centralne repozytorium, z którym wszyscy u¿ytkownicy systemu synchronizuj¹
+      swoje zmiany, a te drugie pozwalaj¹ na prowadzenie równoprawnych, niezale¿nych ga³êzi, które mo¿na 
+      dowolnie synchronizowaæ ze sob¹ nawzajem, np. poprzez e-mail (Code Co-op). Wybór odpowiedniego typu 
+      systemu kontroli wersji zale¿y od potrzeb projektu.
+  d) wyt³umacz do czego s³u¿¹ polecenia: 
+
+    init- tworzenie repozytorium
+    clone- umo¿liwia klonowanie
+    add- dodanie pliku do repozytorium
+    status- sprawdzanie statusu naszego repozytorium
+    diff- porównuje pliki
+    commit- s³u¿y do zatwierdzania zmian
+    reset- wycofanie wprowadzonych przez nas zmian
+    rm- kasowanie pliku
+    mv- zmiana nazwy pliku
+    branch- ga³¹Ÿ, mo¿emy rozga³êziaæ nasz projekt tworz¹c ga³êzie
+    checkout- wycofanie zmiany z katalogu roboczego
+    merge- umo¿liwia wprowadzanie danych i ich aktualizacjê w czasie jednej operacji; scalanie
+    log- sprawdzamy historiê zatwierdzania
+    stash- pozwala na chwilowe “odsuniêcie” aktualnie wprowadzonych do projektu zmian bez koniecznoœci ich 
+    zatwierdzania
+    pull- automatyczne pobranie danych (fetch) i ich scalenie (merge) z lokalnymi plikami
+    push- wypychanie zmian na zewn¹trz
+    
