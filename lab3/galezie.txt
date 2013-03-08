@@ -1,0 +1,10 @@
+a) Ga³¹Ÿ zapisuje obiekt zmian, który z kolei zawiera wskaŸnik na migawkê zawartoœci, która w danej chwili znajduje siê w poczekalni, metadane autora i opisu oraz zero lub wiêcej wskaŸników na zmiany, które by³y bezpoœrednimi rodzicami zmiany w³aœnie zatwierdzanej: brak rodziców w przypadku pierwszej, jeden w przypadku zwyk³ej, oraz kilka w przypadku zmiany powsta³ej wskutek scalenia dwóch lub wiêcej ga³êzi.
+b) master
+c) head wskazuje w jakiej ga³êzi aktualnie jesteœmy
+d) git branch x - tworzy nowa ga³¹Ÿ
+   git checkout x - przeskakuje na inna ga³êŸ
+   git merge x - scala ga³êzie
+   git branch - wyœwietla listê ga³êzi
+   git branch -v - wyswietla lisyê ga³êzi wraz z commitami
+   git branch --merged - wyswietla listê scalonych ga³êzi
+   git branch -d x - usuwa ga³êzie
