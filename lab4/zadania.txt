@@ -1,0 +1,8 @@
+wyœwietlenie informacji o poleceniach (pomocy) - git help
+wyœwietlanie zawartoœci bie¿¹cego katalogu - dir
+utworzenie katalogu o nazwie 'katalog' - mkdir katalog
+utworzenia pliku o nazwie 'plik.txt' - touch plik.txt
+wyœwietlenie zawartoœci pliku 'plik.txt'- type plik.txt
+przejœcie do katalogu nadrzêdnego - cd ..
+przejœcie do katalogu 'lab4' - cd lab4
+zmianê nazwy pliku 'plik.txt' na 'inny_plik.txt' - ren  plik.txt inny_plik.txt
