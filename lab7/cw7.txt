@@ -1,0 +1,7 @@
+ZWI¥ZEK ASOCJACJI - dowolny zwi¹zek pomiêdzy obiektami dziedziny przedmiotowej, który ma znaczenia dla modelowania. Przyk³ady: sklep zatrudnia pracownika. Asocjacja reprezentuje zwi¹zek, w którym oba obiekty istniej¹ niezale¿nie od siebie, tzn. istnienie jednego nie jest warunkiem istnienia drugiego. Usuniêcie zwi¹zku pomiêdzy obiektami nie ma wp³ywu na ich sposób funkcjonowania.
+
+ZWI¥ZEK AGREGACJI - reprezentuje zwi¹zek typu ca³oœæ-czêœæ. Wystêpuje tutaj relacja posiadania, co oznacza, ¿e elementy czêœciowe mog¹ nale¿eæ do wiêkszej ca³oœci, jednak równie¿ mog¹ istnieæ bez niej. Na diagramie agregacjê oznacza siê za pomocy linii zakoñczonej pustym rombem. Przyk³ad: silnik w samochodzie, procesor w komputerze
+
+ZWI¥ZEK KOMPOZYCJI - inaczej z³o¿enie, jest zwi¹kiem typu ca³oœæ-czêœæ. W relacji kompozycji czêœci nale¿¹ tylko do jednej ca³oœci, a ich okres ¿ycia jest wspólny - razem z ca³oœci¹ niszczone s¹ równie¿ czêœci. Na diagramie kompozycjê oznacza siê za pomoc¹ linii zakoñczonej wype³nionym rombem. Przyk³ad: cz³owiek i numer PESEL
+
+ZWI¥ZEK GENERALIZACJI - zwi¹zek opisuj¹cy dziedziczenie po klasach. Na diagramie generalizacjê oznacza siê za pomoc¹ niewype³nionego trójk¹ta symbolizuj¹cego strza³kê (skierowan¹ od klasy pochodnej do klasy bazowej). Przyk³ad: ka¿dy kot jest ssakiem, ale nie ka¿dy ssak jest kotem.
